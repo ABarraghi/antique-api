@@ -1,0 +1,28 @@
+{
+  "name": "antique-api",
+  "version": "1.0.0",
+  "description": "NodeJS based API for IntlAntiquarian",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ABarraghi/antique-api.git"
+  },
+  "author": "abarraghi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ABarraghi/antique-api/issues"
+  },
+  "homepage": "https://github.com/ABarraghi/antique-api#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.3",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
